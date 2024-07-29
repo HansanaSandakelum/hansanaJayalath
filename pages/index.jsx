@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+
 import { useTheme } from "next-themes";
 import Head from "next/head";
 import Image from "next/image";
@@ -10,8 +10,8 @@ import { BsArrowUpRight } from "react-icons/bs";
 
 import Avatar_Black from "@/public/cv_photo.png";
 import Avatar_White from "@/public/cv_photo.png";
-import BooBlack from "@/public/boo-black.svg";
-import BooWhite from "@/public/boo-white.svg";
+// import BooBlack from "@/public/boo-black.svg";
+// import BooWhite from "@/public/boo-white.svg";
 import Link from "next/link";
 import { Typewriter } from "react-simple-typewriter";
 import BackGroundCircles from "@/components/BackGroundCircles";
