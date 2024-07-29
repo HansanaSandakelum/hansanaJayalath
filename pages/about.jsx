@@ -31,13 +31,13 @@ export default function About() {
     <div className="px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
       <Head>
         <title>about ✦ hansa</title>
-        <link rel="icon" href="/Avatar-white.svg" />
+        <link rel="icon" href="/hs.png" />
       </Head>
       <main className="  max-w-screen ">
         <div className=" mx-auto pt-16 -pb-10 max-w-7xl">
           <div className=" mx-auto flex flex-col ">
             <h1
-              className={`mt-6 mb-12 bg-gradient-to-br to-blue-500 via-red-400/90 from-yellow-500  bg-clip-text text-transparent selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold`}
+              className={`mt-6 mb-12 bg-gradient-to-r from-purple-500 to-pink-500  bg-clip-text text-transparent selection:text-gray-700 dark:selection:text-white/90 items-center mx-auto text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold`}
             >
               About
             </h1>
