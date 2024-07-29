@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>hansa ✦ developer, designer</title>
+        <title>hansana ✦ sandakelum </title>
         <link rel="icon" href="/hs.png" />
       </Head>
       <div className="lg:min-h-screen px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
@@ -77,12 +77,12 @@ export default function Home() {
                   <BsArrowUpRight className="stroke-1 h-3" />
                 </Link>
               </h3>
-              <Typewriter
+              {/* <Typewriter
                 loop={true}
                 words={["Full Stack Developer", "UI/UX Designer "]}
                 cursorStyle='|'
                 typeSpeed={100}
-              ></Typewriter>
+              ></Typewriter> */}
             </div>
             
           </div>
