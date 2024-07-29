@@ -1,18 +1,18 @@
 import Image from "next/image";
 import { TfiLinkedin, TfiTwitterAlt } from "react-icons/tfi";
-import Rectangle from "../public/Rectangle.svg";
+import Rectangle from "../public/chat_3d_icons.png";
 
 const Contact = () => {
   return (
     <div className="h-max xl:px-12 lg:h-[22rem] p-6 sm:p-8 md:px-10 pt-32 md:pt-40 lg:pt-10 bg-gradient-to-tr dark:from-[#df51ad3e] dark:to-[#eb587d2a] from-[#f6ebeb90] to-[#fff8ec60] flex flex-col lg:flex-row mx-auto rounded-3xl shadow-md drop-shadow-2xl backdrop-blur-xl items-center justify-center lg:justify-between ">
       <div className="order-2 sm:w-[75%] lg:w-[80%] lg:basis-[60%] flex flex-col space-y-6 cirGradient bg-clip-text">
         <h2 className=" tracking-normal bg-gradient-to-br from-blue-400 via-indigo-600 to-red-500 bg-clip-text text-transparent text-2xl md:text-3xl lg:text-4xl font-semibold selection:text-gray-700 dark:selection:text-white/90 ">
-          Say hi!
+          Contact me!
         </h2>
         <p className="text-sm md:text-md font-normal lg:text-lg xl:text-lg ">
           If you have any queries or would like to discuss potential
           opportunities, please don&apos;t hesitate to reach out to me using
-          given links.
+          given link.
         </p>
         <div className="grid grid-cols-2 text-[0.7rem] md:text-[0.85rem] lg:text-base gap-2 md:gap-3 lg:gap-4">
           <a
@@ -33,7 +33,7 @@ const Contact = () => {
           >
             <TfiLinkedin className="text-[#CA6298] dark:text-[#ff339c] h-3 w-3 md:h-4 md:w-4 " />
             <h5 className="text-transparent dark:text-[#ff339c]">
-            hansanasandakelum
+              hansanasandakelum
             </h5>
           </a>
         </div>
@@ -42,7 +42,7 @@ const Contact = () => {
         <Image
           src={Rectangle}
           alt="contact"
-          width={750}
+          width={650}
           height={650}
           sizes="(max-width: 768px) 100vw,
           (max-width: 1200px) 50vw,
